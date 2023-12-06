@@ -1,0 +1,16 @@
+@import url("./reset.css");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+   --tone-primary-blue: #4c6ef5;
+   --tone-second-blue: #364fc7; 
+
+   --background-primary: #191c1f;
+   --background-bodys: #212529;
+   --title-gray: #edf2ff;
+   --text-gray: #f8f9fa;
+
+   --font-first: "Inter", sans-serif;
+   --weight-title: 600;
+   --weight-text: 400;
+}
