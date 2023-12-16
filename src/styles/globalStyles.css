@@ -7,10 +7,24 @@
 
    --background-primary: #191c1f;
    --background-bodys: #212529;
+   --tone-gray-four: #adb5bd;
+   --tone-gray-five: #ced4da;
    --title-gray: #edf2ff;
    --text-gray: #f8f9fa;
 
    --font-first: "Inter", sans-serif;
    --weight-title: 600;
    --weight-text: 400;
+
+   --space-text: 150%;
+}
+
+body{
+    font-family: var(--font-first);
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: var(--tone-second-blue);
 }
