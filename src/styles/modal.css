@@ -1,0 +1,102 @@
+@import url("globalStyles.css");
+@import url("index.css");
+
+#modalContainer {
+    width: 504px;
+    height: 416px;
+
+    border: 2px solid var(--tone-primary-blue);
+    background: var(--background-bodys);
+}
+
+.modal__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 504px;
+    height: 416px;
+    padding: 40px 28px;
+    gap: 31px;
+}
+
+.modal__title-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 448px;
+    height: 51px;
+}
+
+.modal__title {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: var(--weight-title);
+    line-height: 160%;
+    color: var(--text-gray);
+}
+
+#modalButtonClose {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 38px;
+    height: 32px;
+    border-radius: 4px;
+    background: #343a40;
+    color: var(--tone-gray-four);
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: var(--weight-title);
+    line-height: 160%;
+}
+
+.modal__div-paragraph {
+    width: 448px;
+    height: 72px;
+}
+
+.modal__paragraph {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: var(--weight-text);
+    line-height: 150%;
+    color: var(--tone-gray-four);
+}
+
+.modal__form {
+    display: flex;
+}
+
+#input_email {
+    display: flex;
+    width: 448px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--background-primary);
+    background: var(--background-primary);
+}
+
+#input_email::placeholder {
+    padding-left: 20px;
+    color: var(--tone-gray-four);
+    font-size: 20px;
+    font-weight: var(--weight-text);
+    line-height: 150%;
+}
+
+#modalButtonEnterList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 32px;
+    width: 448px;
+    height: 60px;
+    gap: 10px;
+    color: var(--text-gray);
+    border: 1px solid var(--tone-primary-blue);
+    background: var(--tone-primary-blue);
+}

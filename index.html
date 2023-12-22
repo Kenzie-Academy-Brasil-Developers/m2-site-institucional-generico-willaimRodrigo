@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
 
     <script src="./src/scripts/index.js" defer></script>
     <title>Página Institucional Genérica</title>
@@ -196,6 +197,22 @@
     </footer>
 
     <!-- ====== Modal ====== -->
-    <dialog></dialog>
+    <dialog id="modalContainer">
+      <section class="modal__section">
+        <div class="modal__title-button">
+          <h3 class="modal__title">Cadastro</h3>
+          <button id="modalButtonClose">X</button>
+        </div>
+        <div class="modal__div-paragraph">
+          <p class="modal__paragraph">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+        </div>
+        <form class="modal__form">
+          <input id="input_email" type="email" 
+            placeholder="Digitar email"
+            name="email" required>
+        </form>
+        <button id="modalButtonEnterList">Entrar na lista para próxima turma</button>
+      </section>
+    </dialog>
   </body>
 </html>
