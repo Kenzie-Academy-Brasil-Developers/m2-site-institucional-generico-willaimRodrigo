@@ -100,3 +100,7 @@
     border: 1px solid var(--tone-primary-blue);
     background: var(--tone-primary-blue);
 }
+
+::backdrop {
+    background: rgb(0, 0, 0, 0.8);
+  }
