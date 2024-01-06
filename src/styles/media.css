@@ -1,22 +1,6 @@
-@media (min-width:769px) and (max-width: 1024px) {
-    .header__container{
-        padding: 20px 40px;
-    }
-
-    .header__logo-button{
-        width: 1024px;
-    }
-
-    .banner__container{
-        padding: 170px 150px;
-    }
-
-    .banner__content{
-        width: 800px;
-    }
-
+@media (max-width: 1024px){
     .banner__paragraph{
-        width: 730px;
+        width: 72%;
     }
 
     .about__container{
@@ -24,389 +8,334 @@
     }
 
     .questions__info{
-        max-width: 1024px;
-        padding-block: 2.5rem;
+        width: 100%;
+        gap: 1rem;
     }
 
     .left-questions__container{
-        width: 492px;
-        height: 320px;
-        padding-left: 40px;
+        width: 100%;
+        height: auto;
+        padding-left: 1.5rem;
     }
 
     .questions__frequent{
-        width: 492px;
+        width: 100%;
+        padding-right: 1.5rem;
     }
 
     .question__title{
-        width: 452px;
+        width: 100%;
     }
 
     .question__paragraph-left{
-        width: 452px;
-        height: 160px;
+        width: 100%;
+        height: auto;
     }
 
     .right-question__container{
-        width: 492px;
-        padding-right: 40px;
+        width: 100%;
+        gap: 2.5rem;
     }
 
     .list__question{
-        width: 492px;
+        width: 90%;
     }
 
     .title__question{
-        width: 452px;
+        width: 100%;
+        height: auto;
     }
 
     .list__paragraph-rigth{
-        width: 452px;
-    }
-
-    .comments__container{
-        padding: 82px 40px;
+        height: auto;
     }
 
     .title__comment{
-        width: 388px;
+        width: 100%;
     }
 
     .intro-comment__paragraph{
-        width: 348px;
+        width: 100%;
     }
 
     .comments__section{
-        width: 984px;
-        gap: 41px;
+        max-width: 100%;
+        gap: 3.1rem;
     }
 
     .comment_right{
-        width: 452px;
-        height: 462px;
+        width: 100%;
         padding-left: 1px;
     }
 
     .comment__students-about{
-        width: 452px;
-        height: 452px;
+        max-width: 98%;
+        height: 28.25rem;
         gap: 15px;
     }
 
     .comment-left__list{
-        width: 452px;
-        height: 1387px;
+        width: 100%;
+        height: auto;
     }
 
     .comment__list{
-        width: 452px;
+        width: 100%;
         flex-direction: column;
-        gap: 25px;
+        gap: 1.5rem;
     }
 
     .comment__div-list{
         flex-direction: row;
-        width: 492px;
-        height: 40px;
+        width: 100%;
         align-items: center;
     }
 
     .comment__paragraph{
-        width: 442px;
+        max-width: 100%;
     }
 
-    footer {
-        width: 1024px;
-        padding: 50px 412px;
-    }
-}
+    @media (max-width: 768px){
+        .about__us{
+            flex-direction: column;
+            justify-content: center;
+            gap: 2.5rem;
+        }
 
-@media (min-width: 426) and (max-width: 768px) {
-    .header__container{
-        padding: 1.25rem;
-    }
+        .about__title{
+            align-items: center;
+        }
 
-    .banner__content{
-        width: 720px;
-    }
+        .about__who-us{
+            width: 100%;
+        }
 
-    .banner__paragraph{
-        width: 620px;
-    }
+        .questions__info{
+            flex-direction: column;
+            align-items: center;
+        }
 
-    .about__container{
-        padding: 82px;
-        height: 400px;
-    }
+        .left-questions__container{
+            max-width: 100%;
+            padding: 0;
+        }
 
-    .about__us{
-        flex-direction: column;
-        justify-content: center;
-    }
+        .questions__frequent{
+            align-items: center;
+            max-width: 100%;
+            padding: 1%;
+        }
 
-    .about__title{
-        align-items: center;
-    }
+        .question__title{
+            text-align: center;
+        }
 
-    .about__who-us{
-        width: 45rem;
-    }
+        .question__button{
+            width: 100%;
+            margin-bottom: 40px;
+        }
 
-    .questions__container{
-        height: 1340px;
-    }
+        .right-question__container{
+            width: 700px;
+        }
 
-    .questions__info{
-        flex-direction: column;
-        align-items: center;
-    }
+        .list__question{
+            width: 100%;
+            max-width: 700px;
+        }
 
-    .questions__frequent{
-        padding: 0;
-        align-items: center;
-        width: 45rem;
-    }
+        .title__question{
+            width: 100%;
+        }
+
+        .list__paragraph-rigth{
+            width: 100%;
+        }
+
+        .comments__container{
+            width: 100%;
+            padding: 2%;
+        }
+
+        .comments__section{
+            flex-direction: column;
+            align-items: center;
+            width: 700px; 
+        }
+
+        .comment_right{
+            width: 45rem;
+            padding: 0;
+            position: static;
+        }
+
+        .comment__students-about{
+            width: 100%;
+            justify-content: space-around;
+        }
     
-    .question__button{
-        width: 45rem;
-        margin-bottom: 40px;
+        .title__comment{
+            width: 25%;
+        }
+    
+        .intro-comment__paragraph{
+            width: 100%;
+        }
+
+        .comment__list{
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            gap: 16px;
+        }
+    
+        .comment__div-list{
+            flex-direction: row;
+            width: 100%;
+        }
+
+        .comment__title{
+            width: 35%;
+        }
     }
 
-    .right-question__container{
-        width: 45rem;
-        height: 1100px;
-    }
+    @media (max-width: 427px) {
+        .header__container{
+            width: 100%;
+            padding: 20px 5%;
+        }
 
-    .list__question{
-        align-items: center;
-    }
+        .header__logo-button{ 
+            height: 20px;
+        }
+    
+        .enter__button{
+            display: none;
+        } 
 
-    .comments__section{
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
+        h1{
+            max-width: 80%;
+        }
         
-    }
+        .banner__container{
+            height: 33.125rem;
+        }
 
-    .comment_right{
-        width: 45rem;
-        padding: 0;
-        position: static;
-    }
+        .banner__paragraph{
+            width: 80%;
+        }
 
-    .comment__students-about{
-        width: 45rem;
-        justify-content: space-around;
-    }
+        .about__container{
+            width: 100%;
+            padding: 82px 40px;
+        }
 
-    .title__comment{
-        width: 39rem;
-    }
+        .about__us{
+            flex-direction: column;
+            width: 100%;
+            height: 200px;
+        }
 
-    .intro-comment__paragraph{
-        width: 39rem;
-    }
+        .about__title{
+            align-items: center;
+            width: 100%;
+            font-size: clamp(1.75rem, 1.395rem + 1.336vw, 2.25rem);
+        }
 
-    .comment-left__list{
-        width: 45rem;
-    }
+        .about__who-us{
+            max-width: 25rem;
+            font-size: clamp(1rem, 0.823rem + 0.668vw, 1.25rem);
+        }
 
-    .comment__list{
-        flex-direction: column;
-        width: 45rem;
-        height: 250px;
-        gap: 16px;
-    }
+        .question__title{
+            width: 100%;
+            font-size: clamp(1.75rem, 1.395rem + 1.336vw, 2.25rem);
+        }
 
-    .comment__div-list{
-        flex-direction: row;
-        width: 45rem;
-    }
+        .question__button{
+            width: 25rem;
+            color: var(--text-gray);
+        }
 
-    .comment__paragraph{
-        width: 45rem;
-        height: 100px;
-    }
+        .question__paragraph-left{
+            max-width: 25rem;
+            height: auto;
+            font-size: clamp(1.05rem, 0.908rem + 0.534vw, 1.25rem);
+        }
 
-    footer{
-        width: 100%;
-    }
-}
+        .right-question__container{
+            width: 100%;
+        }
 
-@media (max-width: 427px) {
-    .header__container{
-        width: 100%;
-        padding: 20px 5%;
-        position: relative;
-    }
+        .list__question{
+            width: 100%;
+        }
 
-    .header__logo-button{ 
-        height: 20px;
-    }
+        .title__question{
+            width: 25rem;
+            height: 2.5rem;
+        }
 
-    .enter__button{
-        display: none;
-    }
+        .list__paragraph-rigth{
+            height: auto;
+        }
+        
+        .comments__section{
+            flex-direction: column;
+            align-items: center;
+        }
 
-    .banner__container{
-        padding: 15%;
-        height: 33.125rem;
-    }
+        .comment_right{
+            position: static;
+            max-width: 25rem;
+            height: 440px;
+            padding-left: 0;
+        }
 
-    .banner__paragraph{
-        width: 18.75rem;
-    }
+        .comment__students-about{
+            max-width: 25rem;
+            padding: 80px 40px;
+            gap: 10px;
+            align-items: center;
+        }
 
-    .about__container{
-        width: 100%;
-        padding: 82px 40px;
-    }
+        .title__comment{
+            width: 20.50rem;
+        }
 
-    .about__us{
-        flex-direction: column;
-        width: 25rem;
-        height: 200px;
-    }
+        .intro-comment__paragraph{
+            max-width: 20.0rem;
+            height: auto;
+        }
 
-    .about__title{
-        align-items: center;
-        width: 25rem;
-        font-size: clamp(1.75rem, 1.395rem + 1.336vw, 2.25rem);
-    }
+        .comment-left__list{
+            width: 100%;
+            gap: 10px;
+        }
 
-    .about__who-us{
-        width: 25rem;
-        font-size: clamp(1rem, 0.823rem + 0.668vw, 1.25rem);
-    }
+        .comment__list{
+            flex-direction: column;
+            gap: 15px;
+        }
 
-    .questions__container{
-        padding: 2.5rem;
-        height: 95rem;
-    }
+        .comment__div-list{
+            flex-direction: row;
+            justify-content: flex-start;
+            width: 100%;
+            height: auto;
+        }
 
-    .questions__info{
-        width: 25rem;
-        flex-direction: column;
-        align-items: center;
-    }
+        .comment__title{
+            width: 80%;
+        }
 
-    .questions__frequent{
-        width: 25rem;
-        padding-right: 0;
-    }
+        .student__class{
+            margin-top: 15px;
+        }
 
-    .question__title{
-        width: 25rem;
-        font-size: clamp(1.75rem, 1.395rem + 1.336vw, 2.25rem);
-    }
-
-    .question__paragraph-left{
-        width: 25rem;
-        height: 100px;
-        font-size: clamp(1.05rem, 0.908rem + 0.534vw, 1.25rem);
-    }
-
-    .question__button{
-        width: 25rem;
-        color: var(--text-gray);
-    }
-
-    .right-question__container{
-        width: 100%;
-        height: 1200px;
-        justify-content: space-evenly;
-    }
-
-    .list__question{
-        width: 25rem;
-    }
-
-    .title__question{
-        width: 25rem;
-        height: 2.5rem;
-        font-size: clamp(1.5rem, 1.145rem + 1.336vw, 2rem);
-    }
-
-    .list__paragraph-rigth{
-        height: 11.25rem;
-    }
-
-    .comments__container{
-        padding: 0.75rem;
-    }
-
-    .comments__section{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .comment_right{
-        position: static;
-        width: 25rem;
-        height: 440px;
-        padding-left: 0;
-    }
-
-    .comment__students-about{
-        width: 25rem;
-        padding: 80px 40px;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .title__comment{
-        width: 20.50rem;
-        font-size: clamp(2rem, 1.645rem + 1.336vw, 2.5rem);
-    }
-
-    .intro-comment__paragraph{
-        width: 20.50rem;
-        height: 150px;
-    }
-
-    .comment-left__list{
-        width: 100%;
-        gap: 10px;
-    }
-
-    .comment__list{
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .comment__div-list{
-        flex-direction: row;
-        justify-content: flex-start;
-        width: 25rem;
-        height: 52px;
-    }
-
-    .comment__title{
-        width: 140px;
-        font-size: clamp(1.5rem, 1.145rem + 1.336vw, 2rem);
-    }
-
-    .student__class{
-        margin-top: 15px;
-        font-size: clamp(1rem, 0.823rem + 0.668vw, 1.25rem);
-    }
-
-    .comment__paragraph{
-        width: 25rem;
-        height: 140px;
-        font-size: clamp(1rem, 0.911rem + 0.334vw, 1.125rem);
-    }
-
-    footer{
-        width: 425px;
-    }
-
-    #modalContainer {
-        width: 425px;
-        height: 416px;
-    }
-
-    .modal__section{
-        width: 400px;
+        .comment__paragraph{
+            width: 100%;
+            height: auto;
+        }
     }
 }

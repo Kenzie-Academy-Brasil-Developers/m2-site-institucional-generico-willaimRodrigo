@@ -2,7 +2,7 @@
 @import url("index.css");
 
 #modalContainer {
-    width: 504px;
+    max-width: 504px;
     height: 416px;
 
     border: 2px solid var(--tone-primary-blue);
@@ -13,9 +13,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 504px;
+    max-width: 504px;
     height: 416px;
-    padding: 40px 28px;
+    padding: clamp(1.5rem, -4.167rem + 21.333vw, 2.5rem) 
+    clamp(1.25rem, -1.583rem + 10.667vw, 1.75rem);
     gap: 31px;
 }
 
@@ -23,13 +24,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 448px;
+    max-width: 448px;
     height: 51px;
 }
 
 .modal__title {
     text-align: center;
-    font-size: 32px;
+    font-size: clamp(1.5rem, -1.333rem + 10.667vw, 2rem);
     font-style: normal;
     font-weight: var(--weight-title);
     line-height: 160%;
@@ -47,19 +48,19 @@
     background: #343a40;
     color: var(--tone-gray-four);
     font-family: Nunito;
-    font-size: 20px;
+    font-size: clamp(1rem, -0.417rem + 5.333vw, 1.25rem);
     font-style: normal;
     font-weight: var(--weight-title);
     line-height: 160%;
 }
 
 .modal__div-paragraph {
-    width: 448px;
-    height: 72px;
+    max-width: 100%;
+    height: auto;
 }
 
 .modal__paragraph {
-    font-size: 16px;
+    font-size: clamp(0.8rem, -0.333rem + 4.267vw, 1rem);
     font-style: normal;
     font-weight: var(--weight-text);
     line-height: 150%;
@@ -72,7 +73,7 @@
 
 #input_email {
     display: flex;
-    width: 448px;
+    max-width: 100%;
     height: 60px;
     justify-content: center;
     align-items: center;
@@ -81,7 +82,7 @@
 }
 
 #input_email::placeholder {
-    padding-left: 20px;
+    padding-left:  clamp(1rem, -0.417rem + 5.333vw, 1.25rem);
     color: var(--tone-gray-four);
     font-size: 20px;
     font-weight: var(--weight-text);
@@ -92,8 +93,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 32px;
-    width: 448px;
+    padding: 0px 2rem;
+    max-width: 448px;
     height: 60px;
     gap: 10px;
     color: var(--text-gray);

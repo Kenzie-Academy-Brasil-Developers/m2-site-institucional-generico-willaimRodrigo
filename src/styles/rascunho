@@ -1,5 +1,9 @@
-clamp(2.5rem, 1.968rem + 2.003vw, 3.25rem)
-
-clamp(0.8rem, 0.481rem + 1.202vw, 1.25rem)
-
-clamp(1.75rem, 1.395rem + 1.336vw, 2.25rem)
+<li class="list___question2">
+                <h3 class="title__question">Tenho direito à cancelamento?</h3>
+                <p class="list__paragraph-rigth">
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using
+                </p>
+              </li>
